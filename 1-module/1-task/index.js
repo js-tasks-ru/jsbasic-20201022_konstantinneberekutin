@@ -11,7 +11,7 @@ function factorial(n) {
   return result;
 }
 
-console.log(factorial(0));
-console.log(factorial(1));
-console.log(factorial(3));
-console.log(factorial(5));
+factorial(0);
+factorial(1);
+factorial(3);
+factorial(5);
