@@ -7,9 +7,9 @@ let calculator = {
     return this.a * this.b;
   },
 
-  read: function() {
-    this.a = (5);
-    this.b = (3);
+  read: function(a, b) {
+    this.a = a;
+    this.b = b;
   }
 };
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
